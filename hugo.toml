@@ -1,7 +1,8 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://ualhmis2026-eq10.github.io/blog/'
 languageCode = 'es-es'
 title = 'Blog del Equipo'
 theme = 'nightfall'
+publishDir = 'docs'
 
 [params]
 user = "equipo10"
