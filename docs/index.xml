@@ -2,47 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog del Equipo</title>
-    <link>http://localhost:1313/blog/</link>
+    <link>https://ualhmis2026-eq10.github.io/blog/</link>
     <description>Recent content on Blog del Equipo</description>
     <generator>Hugo</generator>
     <language>es-es</language>
     <managingEditor>equipo@example.com (Equipo 10 - HMIS)</managingEditor>
     <webMaster>equipo@example.com (Equipo 10 - HMIS)</webMaster>
     <lastBuildDate>Wed, 25 Mar 2026 00:35:00 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ualhmis2026-eq10.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gabi</title>
-      <link>http://localhost:1313/blog/gabi/</link>
+      <link>https://ualhmis2026-eq10.github.io/blog/gabi/</link>
       <pubDate>Wed, 25 Mar 2026 00:35:00 +0100</pubDate><author>equipo@example.com (Equipo 10 - HMIS)</author>
-      <guid>http://localhost:1313/blog/gabi/</guid>
+      <guid>https://ualhmis2026-eq10.github.io/blog/gabi/</guid>
       <description>&lt;p&gt;Estudiante del equipo 10 de HMIS con interes en el desarrollo web y en la organizacion del contenido del blog. En el proyecto se encarga de revisar la portada y preparar nuevas entradas.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Como organizamos el contenido en Hugo</title>
-      <link>http://localhost:1313/blog/posts/2026/2026-03-25-hugo-y-contenido/</link>
+      <link>https://ualhmis2026-eq10.github.io/blog/posts/2026/2026-03-25-hugo-y-contenido/</link>
       <pubDate>Wed, 25 Mar 2026 00:30:00 +0100</pubDate><author>equipo@example.com (Equipo 10 - HMIS)</author>
-      <guid>http://localhost:1313/blog/posts/2026/2026-03-25-hugo-y-contenido/</guid>
+      <guid>https://ualhmis2026-eq10.github.io/blog/posts/2026/2026-03-25-hugo-y-contenido/</guid>
       <description>&lt;p&gt;En esta entrada contamos como vamos a organizar las paginas del blog, las entradas en Markdown y los enlaces a la informacion de cada miembro del equipo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Primera entrada del equipo</title>
-      <link>http://localhost:1313/blog/posts/2026/2026-03-25-post-de-ejemplo/</link>
+      <link>https://ualhmis2026-eq10.github.io/blog/posts/2026/2026-03-25-post-de-ejemplo/</link>
       <pubDate>Wed, 25 Mar 2026 00:15:12 +0100</pubDate><author>equipo@example.com (Equipo 10 - HMIS)</author>
-      <guid>http://localhost:1313/blog/posts/2026/2026-03-25-post-de-ejemplo/</guid>
+      <guid>https://ualhmis2026-eq10.github.io/blog/posts/2026/2026-03-25-post-de-ejemplo/</guid>
       <description>&lt;p&gt;En esta primera entrada presentamos el blog del equipo y dejamos preparada la estructura basica del sitio para seguir publicando contenido durante la practica.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contacto</title>
-      <link>http://localhost:1313/blog/pages/contacto/</link>
+      <link>https://ualhmis2026-eq10.github.io/blog/pages/contacto/</link>
       <pubDate>Tue, 24 Mar 2026 23:37:00 +0100</pubDate><author>equipo@example.com (Equipo 10 - HMIS)</author>
-      <guid>http://localhost:1313/blog/pages/contacto/</guid>
+      <guid>https://ualhmis2026-eq10.github.io/blog/pages/contacto/</guid>
       <description>&lt;p&gt;Puedes escribirnos desde este formulario para enviarnos dudas, sugerencias o cualquier comentario sobre el blog del equipo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Daniel</title>
-      <link>http://localhost:1313/blog/daniel/</link>
+      <link>https://ualhmis2026-eq10.github.io/blog/daniel/</link>
       <pubDate>Tue, 24 Mar 2026 23:36:00 +0100</pubDate><author>equipo@example.com (Equipo 10 - HMIS)</author>
-      <guid>http://localhost:1313/blog/daniel/</guid>
+      <guid>https://ualhmis2026-eq10.github.io/blog/daniel/</guid>
       <description>&lt;p&gt;Desarrollador del equipo de 10 de HMIS. Apasionado por la tecnología, el hardware y el desarrollo web.&lt;/p&gt;</description>
     </item>
   </channel>
