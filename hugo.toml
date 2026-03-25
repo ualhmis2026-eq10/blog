@@ -1,0 +1,41 @@
+baseURL = 'https://example.org/'
+languageCode = 'es-es'
+title = 'Blog del Equipo'
+theme = 'nightfall'
+
+[params]
+user = "equipo10"
+hostname = "hmis"
+sitedescription = "Somos un equipo de HMIS y usamos este blog para compartir avances, ideas y publicaciones del proyecto."
+displayDateFormat = "2006-01-02"
+
+  [params.styles]
+    color = "orange"
+
+  [params.author]
+    name = "Equipo HMIS"
+    email = "equipo@example.com"
+
+  [params.contact]
+    formAction = "https://formspree.io/f/tu-form-id"
+
+[menu]
+  [[menu.header]]
+    name = "posts"
+    weight = 1
+    url = "/posts"
+
+  [[menu.header]]
+    name = "gabi"
+    weight = 2
+    url = "/gabi"
+
+  [[menu.header]]
+    name = "miembro-mock"
+    weight = 3
+    url = "/miembro-mock"
+
+  [[menu.header]]
+    name = "contacto"
+    weight = 4
+    url = "/pages/contacto"

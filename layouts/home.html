@@ -1,0 +1,50 @@
+{{ define "title" }}
+{{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+{{ $posts := first 5 (where .Site.RegularPages.ByDate.Reverse "Section" "posts") }}
+{{ $members := where .Site.RegularPages "Params.member" true }}
+{{ $contact := first 1 (where .Site.RegularPages "Params.contact" true) }}
+
+<div class="postWrapper">
+    <h1>{{ .Site.Title }}</h1>
+    <p>{{ .Site.Params.sitedescription }}</p>
+
+    <section>
+        <h2>Ultimas entradas</h2>
+        <div role="list">
+            {{ range $posts }}
+            <div class="postListItem" role="listitem">
+                <a class="postListLink" href="{{ .RelPermalink }}">
+                    <div class="postHeader">
+                        <span class="postTitle">{{ .Title }}</span>
+                        {{ $iso := .Date | time.Format "2006-01-02" }}
+                        <time class="postDate" datetime="{{ $iso }}">{{ .Date | time.Format "2006-01-02" }}</time>
+                    </div>
+                </a>
+                <div class="postExcerpt">
+                    {{ .Summary }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </section>
+
+    <section>
+        <h2>Miembros del equipo</h2>
+        <ul>
+            {{ range $members.ByTitle }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            {{ end }}
+        </ul>
+    </section>
+
+    <section>
+        <h2>Contacto</h2>
+        {{ with index $contact 0 }}
+        <p><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
+        {{ end }}
+    </section>
+</div>
+{{ end }}
