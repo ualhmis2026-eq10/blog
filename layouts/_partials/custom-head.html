@@ -1,0 +1,14 @@
+{{ if or (eq .Layout "contact") (.Params.contact) }}
+{{ $vars := dict
+  "color" (or site.Params.styles.color "blue")
+}}
+
+{{ $options := dict
+  "targetPath" "css/contact.css"
+  "transpiler" "dartsass"
+  "vars" $vars
+}}
+
+{{ $style := resources.Get "sass/contact.scss" | toCSS $options | minify | fingerprint }}
+<link href="{{ $style.RelPermalink }}" rel="stylesheet">
+{{ end }}
