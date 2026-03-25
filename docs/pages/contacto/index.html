@@ -8,9 +8,9 @@ Contacto | Equipo 10 - HMIS
 
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Somos un equipo de HMIS y usamos este blog para compartir avances, ideas y publicaciones del proyecto.">
+<meta name="description" content="Formulario de contacto para escribir al equipo del blog.">
 
-<meta name="generator" content="Hugo 0.159.0">
+<meta name="generator" content="Hugo 0.158.0">
 
 
 <link rel="canonical" href="https://ualhmis2026-eq10.github.io/blog/pages/contacto/" >
@@ -19,6 +19,14 @@ Contacto | Equipo 10 - HMIS
 
 
 <link href="/blog/css/style.min.8f0fcae30d255f65600e5224cac81677ba394994b80f927f75dc2b5609f6cc57.css" rel="stylesheet">
+
+
+
+
+
+
+
+<link href="/blog/css/contact.min.918298fc7fc3181d64233faf114159599505a1101d5ad7e7b7ae84cc934ba092.css" rel="stylesheet">
 
 
 
@@ -69,64 +77,53 @@ Contacto | Equipo 10 - HMIS
         <div class="content">
             <main class="main">
                 
-<div class="postWrapper">
+
+
+
+
+<div class="postWrapper contactPage">
     <h1>Contacto</h1>
+
+    
+    <div class="contactIntro">
+        <p>Puedes escribirnos desde este formulario para enviarnos dudas, sugerencias o cualquier comentario sobre el blog del equipo. Revisaremos los mensajes lo antes posible.</p>
+
+    </div>
     
 
     
-    
-    
+    <form class="contactForm" action="https://formspree.io/f/xgopeakq" method="POST" accept-charset="UTF-8">
+        <div class="contactFormGrid">
+            <div class="contactField">
+                <label for="contact-name">Nombre</label>
+                <input id="contact-name" name="name" type="text" autocomplete="name" required>
+            </div>
+
+            <div class="contactField">
+                <label for="contact-email">Correo electronico</label>
+                <input id="contact-email" name="email" type="email" autocomplete="email" inputmode="email" required>
+            </div>
+        </div>
+
+        <div class="contactField">
+            <label for="contact-subject">Asunto</label>
+            <input id="contact-subject" name="subject" type="text" autocomplete="on" required>
+        </div>
+
+        <div class="contactField">
+            <label for="contact-message">Mensaje</label>
+            <textarea id="contact-message" name="message" rows="8" required></textarea>
+        </div>
+
+        <input class="contactHoneypot" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+        <button class="contactSubmit" type="submit">Enviar mensaje</button>
+    </form>
     
 
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-
-    
-    
-    
-    
-
-    
-    
-    
-    
-
-    
-    <section class="postMetadata">
-        <dl>
-            
-            
-            
-            
-                <dt>published</dt>
-                 
-                 
-                 <dd><time datetime="2026-03-24">2026-03-24</time></dd>
-            
-            
-                <dt>reading time</dt>
-                <dd>1 minute</dd>
-            
-        </dl>
-    </section>
-    
-    <div>
-        <p>Puedes escribirnos desde este formulario para enviarnos dudas, sugerencias o cualquier comentario sobre el blog del equipo.</p>
-
+    <div class="contactDetails">
+        <p>Los campos marcados son obligatorios. Utiliza un correo valido para que podamos responderte.</p>
+        
     </div>
 </div>
 
