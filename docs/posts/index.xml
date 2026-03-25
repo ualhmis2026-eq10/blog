@@ -6,22 +6,22 @@
     <description>Recent content in Posts on Blog del Equipo</description>
     <generator>Hugo</generator>
     <language>es-es</language>
-    <managingEditor>equipo@example.com (Equipo HMIS)</managingEditor>
-    <webMaster>equipo@example.com (Equipo HMIS)</webMaster>
+    <managingEditor>equipo@example.com (Equipo 10 - HMIS)</managingEditor>
+    <webMaster>equipo@example.com (Equipo 10 - HMIS)</webMaster>
     <lastBuildDate>Wed, 25 Mar 2026 00:30:00 +0100</lastBuildDate>
     <atom:link href="https://ualhmis2026-eq10.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Como organizamos el contenido en Hugo</title>
       <link>https://ualhmis2026-eq10.github.io/blog/posts/2026/2026-03-25-hugo-y-contenido/</link>
-      <pubDate>Wed, 25 Mar 2026 00:30:00 +0100</pubDate><author>equipo@example.com (Equipo HMIS)</author>
+      <pubDate>Wed, 25 Mar 2026 00:30:00 +0100</pubDate><author>equipo@example.com (Equipo 10 - HMIS)</author>
       <guid>https://ualhmis2026-eq10.github.io/blog/posts/2026/2026-03-25-hugo-y-contenido/</guid>
       <description>&lt;p&gt;En esta entrada contamos como vamos a organizar las paginas del blog, las entradas en Markdown y los enlaces a la informacion de cada miembro del equipo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Primera entrada del equipo</title>
-      <link>https://ualhmis2026-eq10.github.io/blog/posts/2026/2026-03-25-a-sample-post/</link>
-      <pubDate>Wed, 25 Mar 2026 00:15:12 +0100</pubDate><author>equipo@example.com (Equipo HMIS)</author>
-      <guid>https://ualhmis2026-eq10.github.io/blog/posts/2026/2026-03-25-a-sample-post/</guid>
+      <link>https://ualhmis2026-eq10.github.io/blog/posts/2026/2026-03-25-post-de-ejemplo/</link>
+      <pubDate>Wed, 25 Mar 2026 00:15:12 +0100</pubDate><author>equipo@example.com (Equipo 10 - HMIS)</author>
+      <guid>https://ualhmis2026-eq10.github.io/blog/posts/2026/2026-03-25-post-de-ejemplo/</guid>
       <description>&lt;p&gt;En esta primera entrada presentamos el blog del equipo y dejamos preparada la estructura basica del sitio para seguir publicando contenido durante la practica.&lt;/p&gt;</description>
     </item>
   </channel>
