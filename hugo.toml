@@ -14,27 +14,28 @@ displayDateFormat = "2006-01-02"
     color = "orange"
 
   [params.author]
-    name = "Equipo HMIS"
+    name = "Equipo 10 - HMIS"
     email = "equipo@example.com"
 
   [params.contact]
     formAction = "https://formspree.io/f/tu-form-id"
 
 [menu]
+
   [[menu.header]]
     name = "posts"
     weight = 1
     url = "/posts"
 
   [[menu.header]]
-    name = "gabi"
+    name = "Gabi"
     weight = 2
     url = "/gabi"
 
   [[menu.header]]
-    name = "miembro-mock"
+    name = "Daniel"
     weight = 3
-    url = "/miembro-mock"
+    url = "/daniel"
 
   [[menu.header]]
     name = "contacto"
