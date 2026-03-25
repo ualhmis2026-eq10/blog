@@ -18,7 +18,8 @@ displayDateFormat = "2006-01-02"
     email = "equipo@example.com"
 
   [params.contact]
-    formAction = "https://formspree.io/f/tu-form-id"
+    # Sustituye este endpoint por el identificador real de tu formulario en Formspree.
+    formAction = "https://formspree.io/f/xgopeakq"
 
 [menu]
 
